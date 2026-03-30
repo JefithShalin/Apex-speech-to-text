@@ -27,6 +27,7 @@ Users can speak through a microphone, and the application automatically converts
   -Ideal for notes, comments, and descriptions
   
 **How It Works**
+
   1.User clicks the microphone button
   
   2.Browser captures the voice input
