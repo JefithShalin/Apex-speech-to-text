@@ -28,8 +28,11 @@ Users can speak through a microphone, and the application automatically converts
   
 **How It Works**
   1.User clicks the microphone button
+  
   2.Browser captures the voice input
+  
   3.Speech is processed and converted into text
+  
   4.The converted text is populated into an APEX page item
   
 **Limitations**
