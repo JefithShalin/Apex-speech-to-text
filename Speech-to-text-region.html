@@ -1,0 +1,31 @@
+<!-- Add the following Region HTML to your page -->
+
+<!-- Microphone Button -->
+<button 
+    type="button" 
+    id="start-speech" 
+    class="t-Button t-Button--noLabel" 
+    title="Start Voice Input">
+    <span class="fa fa-microphone"></span>
+</button>
+
+<!-- Language Selector -->
+<select id="speech-lang" class="t-Form-select">
+    <option value="en-US">English (US)</option>
+    <option value="en-IN">English (India)</option>
+    <option value="en-GB">English (UK)</option>
+</select>
+
+<!-- Listening Message -->
+<div 
+    id="listening-msg" 
+    style="display: none; color: green; font-weight: bold; margin-top: 5px;">
+</div>
+
+<!-- Spinner -->
+<div 
+    id="speech-status" 
+    style="display: none; margin-top: 5px;">
+    <span class="fa fa-spinner fa-spin"></span> 
+    Voice recognition in progress...
+</div>
